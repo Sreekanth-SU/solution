@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group 'solution'
+
+sourceCompatibility = 1.8
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'Solution'
+        )
+    }
+}
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'org.spockframework', name: 'spock-core', version: '1.2-groovy-2.4'
+}
