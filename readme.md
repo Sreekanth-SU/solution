@@ -1,9 +1,16 @@
 **Program to calculate number of strokes required to paint a skyscrapper.**
 
 Instructions:
+
 Please make sure Java 8 is installed in your computer.
 
-Use the below command to run the jar.
+Instructions to run the program:
+
+Go to the project directory and run the below command
+
+gradlew build  
+
+cd build/libs  
 
 java -jar solution.jar
 
